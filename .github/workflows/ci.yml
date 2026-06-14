@@ -18,6 +18,6 @@ jobs:
       with:
         python-version: '3.x'
     - name: Install dependencies
-      run: pip install -r requirements.txt
+      run: pip install -r /Users/vaibhaav/Documents/git_devops/.github/workflows/requirements.txt
     - name: Run Tests
       run: python calculator2.py # Simple script run as a test
